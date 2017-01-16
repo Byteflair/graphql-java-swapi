@@ -1,0 +1,7 @@
+server:
+  port: 8080
+api:
+  server:
+      schema: https
+      host: swapi.co/api
+      base_uri: ${api.server.schema}://${api.server.host}
